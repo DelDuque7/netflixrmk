@@ -1,0 +1,33 @@
+.suicide-move{
+    background-image:url(../gui/jolyne.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.logo_jojo{
+    padding-top: 100px;
+    margin: 100px 80px 40px;
+}
+
+.descricao{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 100px;
+    color: white;
+}
+
+.botões {
+    margin-left: 100px;
+    margin-top: 40px;
+    padding-bottom: 50px;
+}
+
+.botão1{
+
+}
+
+.botão2{
+
+}
