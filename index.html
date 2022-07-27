@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+  
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Netflix</title>
   <link rel="stylesheet" href="Css/header.css">
   <link rel="stylesheet" href="Css/main.css">
+  
+  <link rel="stylesheet" href="Css/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="Css/owl/owl.theme.default.min.css">
+
+
+  
 </head>
 <body>
   
@@ -36,17 +43,52 @@
       <div class="filme-principal">
           <div class="container">
             <img src="gui/jojo.webp" alt="" class="logo_jojo">
-            <p class="descricao">Várias gerações da família Joestar enfrentam vilões sobrenaturais</p>
-            <p class="descricao"> ao longo dos tempos, sempre com o mesmo apelido</p>
+            <p class="descricao">Várias gerações da família Joestar enfrentam vilões</p>
+            <p class="descricao">sobrenaturais ao longo dos tempos, sempre com o</p>
+            <p class="descricao">mesmo apelido</p>
             <div class="botões">
-              <button class="botão 1">Assistir</button>
-              <button>Mais informações</button>
+              <button class="botão1">ASSISTIR
+                <i class="fa-solid fa-play" id="play"></i>
+              </button>
+              <button class="botão2">MAIS INFORMAÇÕES
+                <i class="fa-solid fa-circle-info"></i>
+              </button>
             </div>
           </div>
-      </div> 
+      </div>
+      </div>
+      <div class="carrossel">
+        <div class="owl-carousel owl-theme" id="img">
+          <div class="item">
+            <img class="box-filme" src="https://www.themoviedb.org/t/p/w220_and_h330_face/13J3kqXccDfDC2NDdLWNZVQXanU.jpg" alt="">
+          </div>
+          <div class="item">
+            <img class="box-filme" src="https://www.themoviedb.org/t/p/w220_and_h330_face/kIjuNTP6qYKsw0uRKc7EoBqFYbU.jpg" alt="">
+          </div>
+          <div class="item">
+            <img class="box-filme" src="https://www.themoviedb.org/t/p/w220_and_h330_face/4j0PNHkMr5ax3IA8tjtxcmPU3QT.jpg" alt="">
+          </div>
+          <div class="item">
+            <img class="box-filme" src="https://www.themoviedb.org/t/p/w220_and_h330_face/wNN9hJDV45BF2PiJQQVwBCiqLIl.jpg" alt="">
+          </div>
+          <div class="item">
+            <img class="box-filme" src="https://www.themoviedb.org/t/p/w220_and_h330_face/dzCyUAMQGK2QWlf9jlkcl9Fb5gj.jpg" alt="">
+          </div>
+          <div class="item">
+            <img class="box-filme" src="https://www.themoviedb.org/t/p/w220_and_h330_face/boIgXXUhw5O3oVkhXsE6SJZkmYo.jpg" alt="">
+          </div>
+          <div class="item">
+            <img class="box-filme" src="https://www.themoviedb.org/t/p/w220_and_h330_face/bGjuEDk7twi64eM0bDm9lR7NUEZ.jpg" alt="">
+          </div>
+        </div>
+      </div>
 
     </main>
-  </div>
-
+  
 </body>
+
+<script src="js/owl/jquery.min.js"></script>
+<script src="js/owl/owl.carousel.min.js"></script>
+<script src="js/scrip.js"></script>
+<script src="https://kit.fontawesome.com/fb1b35fb5c.js" crossorigin="anonymous"></script>
 </html>
